@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/rctf_lab1/rctf_lab1.egg-info
+writing ../../build/rctf_lab1/rctf_lab1.egg-info/PKG-INFO
+writing dependency_links to ../../build/rctf_lab1/rctf_lab1.egg-info/dependency_links.txt
+writing entry points to ../../build/rctf_lab1/rctf_lab1.egg-info/entry_points.txt
+writing requirements to ../../build/rctf_lab1/rctf_lab1.egg-info/requires.txt
+writing top-level names to ../../build/rctf_lab1/rctf_lab1.egg-info/top_level.txt
+writing manifest file '../../build/rctf_lab1/rctf_lab1.egg-info/SOURCES.txt'
+reading manifest file '../../build/rctf_lab1/rctf_lab1.egg-info/SOURCES.txt'
+writing manifest file '../../build/rctf_lab1/rctf_lab1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build
+creating /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build/lib
+creating /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build/lib/rctf_lab1
+copying rctf_lab1/controller.py -> /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build/lib/rctf_lab1
+copying rctf_lab1/cpu_load_generator.py -> /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build/lib/rctf_lab1
+copying rctf_lab1/cpu_monitor.py -> /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build/lib/rctf_lab1
+copying rctf_lab1/__init__.py -> /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build/lib/rctf_lab1
+copying rctf_lab1/normal_pub.py -> /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build/lib/rctf_lab1
+running install
+running install_lib
+creating /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1
+copying /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build/lib/rctf_lab1/controller.py -> /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1
+copying /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build/lib/rctf_lab1/cpu_load_generator.py -> /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1
+copying /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build/lib/rctf_lab1/cpu_monitor.py -> /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1
+copying /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build/lib/rctf_lab1/__init__.py -> /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1
+copying /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build/lib/rctf_lab1/normal_pub.py -> /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1
+byte-compiling /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1/controller.py to controller.cpython-312.pyc
+byte-compiling /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1/cpu_load_generator.py to cpu_load_generator.cpython-312.pyc
+byte-compiling /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1/cpu_monitor.py to cpu_monitor.cpython-312.pyc
+byte-compiling /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1/normal_pub.py to normal_pub.cpython-312.pyc
+running install_data
+creating /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/share/ament_index
+creating /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/share/ament_index/resource_index
+creating /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/share/ament_index/resource_index/packages
+copying resource/rctf_lab1 -> /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/share/rctf_lab1
+running install_egg_info
+Copying ../../build/rctf_lab1/rctf_lab1.egg-info to /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1-0.0.0-py3.12.egg-info
+running install_scripts
+Installing rctf_lab1_controller script to /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/rctf_lab1
+Installing rctf_lab1_cpu_load_generator script to /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/rctf_lab1
+Installing rctf_lab1_cpu_monitor script to /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/rctf_lab1
+Installing rctf_lab1_normal_pub script to /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/rctf_lab1
+writing list of installed files to '/home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/install.log'

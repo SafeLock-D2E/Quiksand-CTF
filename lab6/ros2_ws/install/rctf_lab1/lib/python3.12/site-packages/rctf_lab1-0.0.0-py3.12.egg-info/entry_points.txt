@@ -1,0 +1,5 @@
+[console_scripts]
+rctf_lab1_controller = rctf_lab1.controller:main
+rctf_lab1_cpu_load_generator = rctf_lab1.cpu_load_generator:main
+rctf_lab1_cpu_monitor = rctf_lab1.cpu_monitor:main
+rctf_lab1_normal_pub = rctf_lab1.normal_pub:main

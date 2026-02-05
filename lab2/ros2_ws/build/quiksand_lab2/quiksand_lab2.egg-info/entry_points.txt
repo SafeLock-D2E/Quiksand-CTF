@@ -1,0 +1,2 @@
+[console_scripts]
+quiksand_node2 = quiksand_lab2.quiksand_node2:main

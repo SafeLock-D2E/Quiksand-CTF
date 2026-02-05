@@ -1,0 +1,27 @@
+[1.629s] Invoking command in '/home/ros2/Desktop/lab/lab1/ros2_ws/src/rctf_lab1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\n(TraeAI-5) \w [$?] $ PYTHONPATH=/home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages:${PYTHONPATH} __trae_PS1=\n(TraeAI-5) \w [$?] $ /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rctf_lab1 build --build-base /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build install --record /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/install.log --single-version-externally-managed install_data
+[2.150s] running egg_info
+[2.188s] writing ../../build/rctf_lab1/rctf_lab1.egg-info/PKG-INFO
+[2.189s] writing dependency_links to ../../build/rctf_lab1/rctf_lab1.egg-info/dependency_links.txt
+[2.190s] writing entry points to ../../build/rctf_lab1/rctf_lab1.egg-info/entry_points.txt
+[2.190s] writing requirements to ../../build/rctf_lab1/rctf_lab1.egg-info/requires.txt
+[2.191s] writing top-level names to ../../build/rctf_lab1/rctf_lab1.egg-info/top_level.txt
+[2.278s] reading manifest file '../../build/rctf_lab1/rctf_lab1.egg-info/SOURCES.txt'
+[2.280s] writing manifest file '../../build/rctf_lab1/rctf_lab1.egg-info/SOURCES.txt'
+[2.280s] running build
+[2.281s] running build_py
+[2.281s] copying rctf_lab1/cpu_load_generator.py -> /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build/lib/rctf_lab1
+[2.282s] running install
+[2.293s] running install_lib
+[2.334s] copying /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build/lib/rctf_lab1/cpu_load_generator.py -> /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1
+[2.337s] byte-compiling /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1/cpu_load_generator.py to cpu_load_generator.cpython-312.pyc
+[2.341s] running install_data
+[2.342s] running install_egg_info
+[2.383s] removing '/home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1-0.0.0-py3.12.egg-info' (and everything under it)
+[2.386s] Copying ../../build/rctf_lab1/rctf_lab1.egg-info to /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages/rctf_lab1-0.0.0-py3.12.egg-info
+[2.387s] running install_scripts
+[2.679s] Installing rctf_lab1_controller script to /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/rctf_lab1
+[2.680s] Installing rctf_lab1_cpu_load_generator script to /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/rctf_lab1
+[2.680s] Installing rctf_lab1_cpu_monitor script to /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/rctf_lab1
+[2.681s] Installing rctf_lab1_normal_pub script to /home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/rctf_lab1
+[2.682s] writing list of installed files to '/home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/install.log'
+[2.728s] Invoked command in '/home/ros2/Desktop/lab/lab1/ros2_ws/src/rctf_lab1' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\n(TraeAI-5) \w [$?] $ PYTHONPATH=/home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/Desktop/lab/lab1/ros2_ws/install/rctf_lab1/lib/python3.12/site-packages:${PYTHONPATH} __trae_PS1=\n(TraeAI-5) \w [$?] $ /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rctf_lab1 build --build-base /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/build install --record /home/ros2/Desktop/lab/lab1/ros2_ws/build/rctf_lab1/install.log --single-version-externally-managed install_data

@@ -1,0 +1,28 @@
+[0.624s] Invoking command in '/home/ros/lab2/ros2_ws/src/quiksand_lab2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/lab2/ros2_ws/build/quiksand_lab2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/lab2/ros2_ws/install/quiksand_lab2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/quiksand_lab2 build --build-base /home/ros/lab2/ros2_ws/build/quiksand_lab2/build install --record /home/ros/lab2/ros2_ws/build/quiksand_lab2/install.log --single-version-externally-managed install_data
+[0.824s] running egg_info
+[0.839s] writing ../../build/quiksand_lab2/quiksand_lab2.egg-info/PKG-INFO
+[0.839s] writing dependency_links to ../../build/quiksand_lab2/quiksand_lab2.egg-info/dependency_links.txt
+[0.840s] writing entry points to ../../build/quiksand_lab2/quiksand_lab2.egg-info/entry_points.txt
+[0.840s] writing requirements to ../../build/quiksand_lab2/quiksand_lab2.egg-info/requires.txt
+[0.840s] writing top-level names to ../../build/quiksand_lab2/quiksand_lab2.egg-info/top_level.txt
+[0.865s] reading manifest file '../../build/quiksand_lab2/quiksand_lab2.egg-info/SOURCES.txt'
+[0.866s] writing manifest file '../../build/quiksand_lab2/quiksand_lab2.egg-info/SOURCES.txt'
+[0.866s] running build
+[0.866s] running build_py
+[0.866s] copying quiksand_lab2/__init__.py -> /home/ros/lab2/ros2_ws/build/quiksand_lab2/build/lib/quiksand_lab2
+[0.866s] copying quiksand_lab2/quiksand_node2.py -> /home/ros/lab2/ros2_ws/build/quiksand_lab2/build/lib/quiksand_lab2
+[0.866s] running install
+[0.871s] running install_lib
+[0.885s] copying /home/ros/lab2/ros2_ws/build/quiksand_lab2/build/lib/quiksand_lab2/__init__.py -> /home/ros/lab2/ros2_ws/install/quiksand_lab2/lib/python3.12/site-packages/quiksand_lab2
+[0.885s] copying /home/ros/lab2/ros2_ws/build/quiksand_lab2/build/lib/quiksand_lab2/quiksand_node2.py -> /home/ros/lab2/ros2_ws/install/quiksand_lab2/lib/python3.12/site-packages/quiksand_lab2
+[0.885s] byte-compiling /home/ros/lab2/ros2_ws/install/quiksand_lab2/lib/python3.12/site-packages/quiksand_lab2/__init__.py to __init__.cpython-312.pyc
+[0.886s] byte-compiling /home/ros/lab2/ros2_ws/install/quiksand_lab2/lib/python3.12/site-packages/quiksand_lab2/quiksand_node2.py to quiksand_node2.cpython-312.pyc
+[0.886s] running install_data
+[0.887s] copying resource/quiksand_lab2 -> /home/ros/lab2/ros2_ws/install/quiksand_lab2/share/ament_index/resource_index/packages
+[0.887s] copying package.xml -> /home/ros/lab2/ros2_ws/install/quiksand_lab2/share/quiksand_lab2
+[0.887s] running install_egg_info
+[0.901s] Copying ../../build/quiksand_lab2/quiksand_lab2.egg-info to /home/ros/lab2/ros2_ws/install/quiksand_lab2/lib/python3.12/site-packages/quiksand_lab2-0.0.0-py3.12.egg-info
+[0.901s] running install_scripts
+[1.006s] Installing quiksand_node2 script to /home/ros/lab2/ros2_ws/install/quiksand_lab2/lib/quiksand_lab2
+[1.006s] writing list of installed files to '/home/ros/lab2/ros2_ws/build/quiksand_lab2/install.log'
+[1.037s] Invoked command in '/home/ros/lab2/ros2_ws/src/quiksand_lab2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/lab2/ros2_ws/build/quiksand_lab2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/lab2/ros2_ws/install/quiksand_lab2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/quiksand_lab2 build --build-base /home/ros/lab2/ros2_ws/build/quiksand_lab2/build install --record /home/ros/lab2/ros2_ws/build/quiksand_lab2/install.log --single-version-externally-managed install_data
