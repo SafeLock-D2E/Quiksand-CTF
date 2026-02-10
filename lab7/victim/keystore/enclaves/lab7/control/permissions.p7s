@@ -1,0 +1,93 @@
+MIME-Version: 1.0
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="===============3690181803917801793=="
+
+This is an S/MIME signed message
+
+--===============3690181803917801793==
+Content-Type: text/plain
+
+<dds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.omg.org/spec/DDS-SECURITY/20170901/omg_shared_ca_permissions.xsd">
+  <permissions>
+    <grant name="/lab7/control">
+      <subject_name>CN=/lab7/control</subject_name>
+      <validity>
+        <not_before>2026-02-08T08:46:00</not_before>
+        <not_after>2036-02-07T08:46:00</not_after>
+      </validity>
+      <allow_rule>
+        <domains>
+          <id>0</id>
+        </domains>
+        <publish>
+          <topics>
+            <topic>rq/*/_action/cancel_goalRequest</topic>
+            <topic>rq/*/_action/get_resultRequest</topic>
+            <topic>rq/*/_action/send_goalRequest</topic>
+            <topic>rq/*Request</topic>
+            <topic>rr/*/_action/cancel_goalReply</topic>
+            <topic>rr/*/_action/get_resultReply</topic>
+            <topic>rr/*/_action/send_goalReply</topic>
+            <topic>rt/*/_action/feedback</topic>
+            <topic>rt/*/_action/status</topic>
+            <topic>rr/*Reply</topic>
+            <topic>rt/*</topic>
+          </topics>
+        </publish>
+        <subscribe>
+          <topics>
+            <topic>rq/*/_action/cancel_goalRequest</topic>
+            <topic>rq/*/_action/get_resultRequest</topic>
+            <topic>rq/*/_action/send_goalRequest</topic>
+            <topic>rq/*Request</topic>
+            <topic>rr/*/_action/cancel_goalReply</topic>
+            <topic>rr/*/_action/get_resultReply</topic>
+            <topic>rr/*/_action/send_goalReply</topic>
+            <topic>rt/*/_action/feedback</topic>
+            <topic>rt/*/_action/status</topic>
+            <topic>rr/*Reply</topic>
+            <topic>rt/*</topic>
+          </topics>
+        </subscribe>
+      </allow_rule>
+      <allow_rule>
+        <domains>
+          <id>0</id>
+        </domains>
+        <publish>
+          <topics>
+            <topic>ros_discovery_info</topic>
+          </topics>
+        </publish>
+        <subscribe>
+          <topics>
+            <topic>ros_discovery_info</topic>
+          </topics>
+        </subscribe>
+      </allow_rule>
+      <default>DENY</default>
+    </grant>
+  </permissions>
+</dds>
+
+--===============3690181803917801793==
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+
+MIICsAYJKoZIhvcNAQcCoIICoTCCAp0CAQExDzANBglghkgBZQMEAgEFADALBgkq
+hkiG9w0BBwGgggE/MIIBOzCB4qADAgECAhRFxDZwL/Behe+5ZFTRimaHsToeBTAK
+BggqhkjOPQQDAjASMRAwDgYDVQQDDAdzcm9zMkNBMB4XDTI2MDIwODA4MzkzM1oX
+DTM2MDIwNzA4MzkzM1owEjEQMA4GA1UEAwwHc3JvczJDQTBZMBMGByqGSM49AgEG
+CCqGSM49AwEHA0IABBAe/9m1Kc4EdhChiRTTET+cy2gyvFRb448YEeqTQQKTjboI
++I3/gThhPksJYc1Hsp3m9gghO2rB6fE31SIw5kmjFjAUMBIGA1UdEwEB/wQIMAYB
+Af8CAQEwCgYIKoZIzj0EAwIDSAAwRQIgE1eI6eCdOpiiD8KAVJC3D2DKZWlCi9ej
+WqNrCD5bpowCIQDjcp/Cy7RHRdkQcTgArERguIL0W1sjWFLLXtZ4uDvc4zGCATUw
+ggExAgEBMCowEjEQMA4GA1UEAwwHc3JvczJDQQIURcQ2cC/wXoXvuWRU0Ypmh7E6
+HgUwDQYJYIZIAWUDBAIBBQCggZswGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAc
+BgkqhkiG9w0BCQUxDxcNMjYwMjA5MDg0NjAwWjAvBgkqhkiG9w0BCQQxIgQgYMUX
+uPPtHOeChizAhEo6Zp2QO5IPQoNCcy5cupA4+yIwMAYJKoZIhvcNAQkPMSMwIQYJ
+YIZIAWUDBAEqBglghkgBZQMEARYGCWCGSAFlAwQBAjAKBggqhkjOPQQDAgRHMEUC
+IF8yNUF2DM8kVZT6XjT4FOSby8T0wEvUINL5nGpTjfnyAiEA5ARTlUTU0ihTWxfM
+Zd99X/Zpcj+pe1+mWtnVq8ri3BA=
+
+--===============3690181803917801793==--

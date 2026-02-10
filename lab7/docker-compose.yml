@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  victim:
+    build:
+      context: ./victim
+    container_name: victim
+    hostname: victim
+    networks:
+      - rosnet
+    tty: true
+    stdin_open: true
+
+  attacker:
+    build:
+      context: ./attacker
+    container_name: attacker
+    hostname: attacker
+    networks:
+      - rosnet
+    tty: true
+    stdin_open: true
+    depends_on:
+      - victim
+
+networks:
+  rosnet:
+    driver: bridge
+
